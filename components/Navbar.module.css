@@ -1,5 +1,7 @@
+.menu-container {
+    display: flex;
+}
 
-
-.menu-container a {
+.menu-container p {
     margin-right: 10px;
 }

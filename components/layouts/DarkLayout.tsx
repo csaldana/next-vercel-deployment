@@ -1,6 +1,10 @@
+import { FC, ReactNode } from "react";
 
+interface DarkLayoutProps {
+  children: ReactNode
+}
 
-export const DarkLayout = ({ children }) => {
+export const DarkLayout: FC<DarkLayoutProps> = ({ children }) => {
   return (
     <div style={{
         backgroundColor: 'rgba(0,0,0,0.3)',
@@ -14,3 +18,4 @@ export const DarkLayout = ({ children }) => {
     </div>
   );
 };
+
